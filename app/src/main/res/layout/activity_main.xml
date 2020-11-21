@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="319.0dip"
+        android:layout_height="70.0dip"
+        android:layout_marginLeft="46.0dip"
+        android:layout_marginTop="128.0dip"
+        android:layout_marginRight="46.0dip"
+        android:layout_marginBottom="533.0dip"
+        android:hint="Enter Ingredient"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addIngredient"
+        android:layout_width="182.0dip"
+        android:layout_height="67.0dip"
+        android:layout_marginLeft="114.0dip"
+        android:layout_marginTop="249.0dip"
+        android:layout_marginRight="115.0dip"
+        android:layout_marginBottom="415.0dip"
+        android:background="@color/button"
+        android:text="Add Ingredient"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="185.0dip"
+        android:layout_height="69.0dip"
+        android:layout_marginLeft="113.0dip"
+        android:layout_marginTop="511.0dip"
+        android:layout_marginRight="113.0dip"
+        android:layout_marginBottom="151.0dip"
+        android:background="@color/button"
+        android:text="Calculate"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/multiplier"
+        android:layout_width="319.0dip"
+        android:layout_height="71.0dip"
+        android:layout_marginLeft="46.0dip"
+        android:layout_marginTop="383.0dip"
+        android:layout_marginRight="46.0dip"
+        android:layout_marginBottom="277.0dip"
+        android:ems="10"
+        android:hint="Enter Multiplier"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
